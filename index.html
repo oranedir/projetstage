@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title2</title>
+    <title>Connexion</title>
 </head>
 <body>
-
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="pseudo" > Votre pseudo: </label>
+            <input type="text" name="pseudo" id="pseudo" required autofocus/>
+            <label for="mdp" > Votre mot de passe : </label>
+            <input type="password" name="mdp" id="mdp" required/>
+            <input type="submit" value="Envoyer"/>
+        </p>
+    </form>
 </body>
 </html>
