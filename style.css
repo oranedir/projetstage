@@ -1,0 +1,8 @@
+p{
+    font-family: Arial;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: green;
+    color: whitesmoke;
+}

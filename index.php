@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Connexion</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <form method="post" action="traitement.php">
@@ -13,6 +14,11 @@
             <input type="password" name="mdp" id="mdp" required/>
             <input type="submit" value="Envoyer"/>
         </p>
+        <?php
+           if(isset($erreur)) {
+               echo $erreur;
+           }
+        ?>
     </form>
 </body>
 </html>
